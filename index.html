@@ -51,187 +51,208 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about"></section>
-    <div class="about-content">
-        <h2 class="section-title">About Me</h2>
-        <p>
-            I'm a Tech Entrepreneur based in Nigeria, specializing in creating digital solutions for Businesses.
-            My goal is to help Startups and Small Businesses leverage Technology to grow and succeed.
-        </p>
-        </section>
-        <div class="more-info-box">
-            <button class="more-info-btn">More Info</button>
-            <div class="sub-boxes" id="subBoxes">
-                <div class="sub-box">
-                    <h4>Basketball Player</h4>
-                    <div class="nested-sub-boxes">
-                        <div class="nested-sub-box">
-                            <p>An active 6’0”ft guard with five years of competitive basketball experience, who founded
-                                and captained a university basketball team, leading them into multiple competitions and
-                                organized tournaments.</p>
-                        </div>
-                        <!-- Add more nested sub-boxes as needed -->
-                    </div>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <p>
+                    I'm a Tech Entrepreneur based in Nigeria, specializing in creating digital solutions for Businesses.
+                    My goal is to help Startups and Small Businesses leverage Technology to grow and succeed.
+                </p>
+                <div class="more-info-box">
+                    <button class="more-info-btn">More Info</button>
                 </div>
-                <div class="sub-box">
-                    <h4>CEO of RAE</h4>
-                    <div class="nested-sub-boxes">
-                        <div class="nested-sub-box">
-                            <p>Founder & Leader.
-                                Started Rae in 2024.
-                                Rae is a startup that focuses on creating digital solutions for businesses.
-                            </p>
+
+                <div class="subject-boxes" id="subjectBoxes">
+                    <!-- Basketball Player Box -->
+                    <div class="subject-box">
+                        <button class="subject-btn" data-subject="basketball">Basketball Player</button>
+                        <div class="popup-modal" id="basketballPopup">
+                            <div class="popup-content">
+                                <span class="close-btn">&times;</span>
+                                <h3>Basketball Player</h3>
+                                <p>
+                                    An active 6’0”ft guard with five years of competitive basketball experience,
+                                    who founded and captained a university basketball team, leading them into multiple
+                                    competitions and organized tournaments.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="sub-box">
-                    <h4>Artist</h4>
-                    <div class="nested-sub-boxes">
-                        <div class="nested-sub-box">
-                            <p>An upcoming rapper blending trap, slow rap, and life centered Christian messages.</p>
+
+                    <!-- CEO of RAE Box -->
+                    <div class="subject-box">
+                        <button class="subject-btn" data-subject="ceo">CEO of RAE</button>
+                        <div class="popup-modal" id="ceoPopup">
+                            <div class="popup-content">
+                                <span class="close-btn">&times;</span>
+                                <h3>CEO of RAE</h3>
+                                <p>
+                                    Founder & Leader. Started Rae in 2024. Rae is a startup that focuses on creating
+                                    digital solutions for businesses.
+                                </p>
+                            </div>
                         </div>
-                        <!-- Add more nested sub-boxes as needed -->
+                    </div>
+
+                    <!-- Artist Box -->
+                    <div class="subject-box">
+                        <button class="subject-btn" data-subject="artist">Artist</button>
+                        <div class="popup-modal" id="artistPopup">
+                            <div class="popup-content">
+                                <span class="close-btn">&times;</span>
+                                <h3>Artist</h3>
+                                <p>
+                                    An upcoming rapper blending trap, slow rap, and life-centered Christian messages.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
 
-        <!-- Services Section -->
-        <section id="services" class="services">
-            <div class="container">
-                <h2 class="section-title">My Services</h2>
-                <div class="services-grid">
-                    <div class="service-box">
-                        <i class="fas fa-robot"></i>
-                        <h3>Assistant Bots</h3>
-                        <p>Automate customer interactions and streamline your business processes with custom bots.</p>
-                    </div>
-                    <div class="service-box">
-                        <i class="fas fa-code"></i>
-                        <h3>Web Development</h3>
-                        <p>Responsive and modern websites tailored to your business needs and brand identity.</p>
-                    </div>
-                    <div class="service-box">
-                        <i class="fas fa-chart-line"></i>
-                        <h3>Social Media Management</h3>
-                        <p>Grow your online presence with strategic social media campaigns and content creation.</p>
-                    </div>
-                    <div class="service-box">
-                        <i class="fas fa-paint-brush"></i>
-                        <h3>Graphic Designing</h3>
-                        <p>Eye-catching designs for your brand, from logos to marketing materials.</p>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <div class="service-box">
+                    <i class="fas fa-robot"></i>
+                    <h3>Assistant Bots</h3>
+                    <p>Automate customer interactions and streamline your business processes with custom bots.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Responsive and modern websites tailored to your business needs and brand identity.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Social Media Management</h3>
+                    <p>Grow your online presence with strategic social media campaigns and content creation.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Graphic Designing</h3>
+                    <p>Eye-catching designs for your brand, from logos to marketing materials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Ready to work together? Send me an email!</p>
+                <!-- Email Button -->
+                <a href="mailto:patricknigel33@gmail.com?subject=Hello%20Nigel&body=Hi%20Nigel,%0D%0A%0D%0AI%20would%20like%20to%20discuss..."
+                    class="btn">Send Email</a>
+                <!-- Optional: Add social media links or other contact methods -->
+                <div class="contact-links">
+                    <p>Or connect with me on:</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/nigelumutite" target="_blank" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@thekingofnigeria_" target="_blank" aria-label="TikTok"><i
+                                class="fab fa-tiktok"></i></a>
+                        <a href="https://twitter.com/techguyNigel" target="_blank" aria-label="Twitter"><i
+                                class="fab fa-x"></i></a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="contact-content">
-                    <p>Ready to work together? Send me an email!</p>
-                    <!-- Email Button -->
-                    <a href="mailto:patricknigel33@gmail.com?subject=Hello%20Nigel&body=Hi%20Nigel,%0D%0A%0D%0AI%20would%20like%20to%20discuss..."
-                        class="btn">Send Email</a>
-                    <!-- Optional: Add social media links or other contact methods -->
-                    <div class="contact-links">
-                        <p>Or connect with me on:</p>
-                        <div class="social-links">
-                            <a href="https://instagram.com/nigelumutite" target="_blank" aria-label="Instagram"><i
-                                    class="fab fa-instagram"></i></a>
-                            <a href="https://tiktok.com/@thekingofnigeria_" target="_blank" aria-label="TikTok"><i
-                                    class="fab fa-tiktok"></i></a>
-                            <a href="https://twitter.com/techguyNigel" target="_blank" aria-label="Twitter"><i
-                                    class="fab fa-x"></i></a>
-                        </div>
-                    </div>
+    <p style="border-top: 1px solid #333;"></p>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <img src="RAE-removebg-preview.png" alt="Nigel Patrick Logo" class="footer-logo-img">
+                    </a>
                 </div>
+
             </div>
-        </section>
-
-        <p style="border-top: 1px solid #333;"></p>
-        <!-- Footer -->
-        <footer>
-            <div class="container">
-                <div class="footer-content">
-                    <div class="footer-logo">
-                        <a href="#" class="logo">
-                            <img src="RAE-removebg-preview.png" alt="Nigel Patrick Logo" class="footer-logo-img">
-                        </a>
-                    </div>
-
-                </div>
-                <div class="footer-bottom">
-                    <p>&copy; 2025 <a href="#" class="footer-brand">Rae Technologies</a>. All rights reserved.</p>
-                </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <a href="#" class="footer-brand">Rae Technologies</a>. All rights reserved.</p>
             </div>
-        </footer>
-        <script>
-            // Selects the "More Info" button from the DOM
-            const moreInfoBtn = document.querySelector('.more-info-btn');
-            // Selects the container for the main sub-boxes
-            const subBoxes = document.getElementById('subBoxes');
+        </div>
+    </footer>
 
-            // Adds a click event listener to the "More Info" button
-            moreInfoBtn.addEventListener('click', () => {
-                // Checks if the sub-boxes are currently visible (display: flex)
-                if (subBoxes.style.display === 'flex') {
-                    // If visible, hides them by setting display to 'none'
-                    subBoxes.style.display = 'none';
-                } else {
-                    // If hidden, shows them by setting display to 'flex'
-                    subBoxes.style.display = 'flex';
+    <script>
+        // Select all subject buttons and popups
+        const subjectButtons = document.querySelectorAll('.subject-btn');
+        const popups = document.querySelectorAll('.popup-modal');
+
+        // Add click event to each subject button
+        subjectButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const subject = button.getAttribute('data-subject');
+                const popup = document.getElementById(`${subject}Popup`);
+                popup.style.display = 'flex';
+            });
+        });
+
+        // Add click event to all close buttons
+        document.querySelectorAll('.close-btn').forEach(closeBtn => {
+            closeBtn.addEventListener('click', () => {
+                const popup = closeBtn.closest('.popup-modal');
+                popup.style.display = 'none';
+            });
+        });
+
+        // Close popup if user clicks outside the content
+        popups.forEach(popup => {
+            popup.addEventListener('click', (e) => {
+                if (e.target === popup) {
+                    popup.style.display = 'none';
                 }
             });
+        });
 
-            // Selects all the main sub-box elements
-            const subBoxesList = document.querySelectorAll('.sub-box');
-            // Loops through each sub-box to add a click event listener
-            subBoxesList.forEach(subBox => {
-                subBox.addEventListener('click', (e) => {
-                    // Prevents toggling if the click happened inside a nested sub-box (allows text selection/copying)
-                    if (e.target.closest('.nested-sub-boxes')) return;
+        // ===== HAMBURGER MENU (keep your existing code) =====
+        const hamburger = document.querySelector('.hamburger');
+        const navLinksContainer = document.querySelector('.nav-links-container');
 
-                    // Finds the nested sub-boxes inside the clicked sub-box
-                    const nestedSubBoxes = subBox.querySelector('.nested-sub-boxes');
-                    // Checks if nested sub-boxes exist
-                    if (nestedSubBoxes) {
-                        // Checks if the nested sub-boxes are currently visible (display: flex)
-                        if (nestedSubBoxes.style.display === 'flex') {
-                            // If visible, hides them by setting display to 'none'
-                            nestedSubBoxes.style.display = 'none';
-                        } else {
-                            // If hidden, shows them by setting display to 'flex'
-                            nestedSubBoxes.style.display = 'flex';
-                        }
-                    }
-                });
+        hamburger.addEventListener('click', () => {
+            navLinksContainer.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinksContainer.classList.remove('active');
+                hamburger.classList.remove('active');
             });
+        });
 
-            // Selects the hamburger menu button
-            const hamburger = document.querySelector('.hamburger');
-            // Selects the container for the navigation links
-            const navLinksContainer = document.querySelector('.nav-links-container');
+        // ===== MORE INFO TOGGLE =====
+        const moreInfoBtn = document.querySelector('.more-info-btn');
+        const subjectBoxes = document.getElementById('subjectBoxes');
 
-            // Adds a click event listener to the hamburger button
-            hamburger.addEventListener('click', () => {
-                // Toggles the 'active' class on the nav links container (shows/hides the menu)
-                navLinksContainer.classList.toggle('active');
-                // Toggles the 'active' class on the hamburger button (animates the icon)
-                hamburger.classList.toggle('active');
+        if (moreInfoBtn && subjectBoxes) {
+            moreInfoBtn.addEventListener('click', () => {
+                // Toggle display between 'flex' and 'none'
+                if (subjectBoxes.style.display === 'flex') {
+                    subjectBoxes.style.display = 'none';
+                    moreInfoBtn.textContent = 'More Info';
+                } else {
+                    subjectBoxes.style.display = 'flex';
+                    moreInfoBtn.textContent = 'Less Info';
+                }
             });
+        }
+    </script>
 
-            // Close mobile menu when a nav link is clicked
-            document.querySelectorAll('.nav-links a').forEach(link => {
-                link.addEventListener('click', () => {
-                    // Remove active class to hide menu
-                    navLinksContainer.classList.remove('active');
-                    hamburger.classList.remove('active');
-                });
-            });
-        </script>
 
 </body>
 
